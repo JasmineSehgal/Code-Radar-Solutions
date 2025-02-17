@@ -1,8 +1,7 @@
-// Your code here...
 #include <stdio.h>
-int main(){
+int main() {
     float x;
-    scanf("%f"&x);
-    printf("You entered:%f", x);
+    scanf("%f", &x); // Added & before x
+    printf("You entered: %f", x);
     return 0;
 }
