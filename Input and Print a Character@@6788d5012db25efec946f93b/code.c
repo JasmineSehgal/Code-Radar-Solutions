@@ -1,7 +1,9 @@
 #include <stdio.h>
-int main(){
+
+int main() {
     char ch;
-    scanf("%s",&ch);
-    printf("You entered:",ch);
+    // printf("Enter a character: ");
+    scanf("%c", &ch);  // Use %c to read a single character
+    printf("You entered: %c\n", ch);  // Add %c to print the character
     return 0;
 }
