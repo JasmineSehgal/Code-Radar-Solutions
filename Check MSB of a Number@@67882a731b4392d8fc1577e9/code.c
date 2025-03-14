@@ -1,12 +1,12 @@
 #include <stdio.h>
-int main(){
+
+int main() {
     int a;
-    scanf("%d",&a);
-    if (!(a & 1)){
-        printf("Set");
-    }
-    else {
-        printf("Not Set");
+    scanf("%d", &a);
+    if (a < 0 || !(a & 1)) {
+        printf("Set\n");
+    } else {
+        printf("Not Set\n");
     }
     return 0;
 }
