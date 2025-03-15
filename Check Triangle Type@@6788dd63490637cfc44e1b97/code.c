@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main(){
-    inta,b,c;
-    scanf("%d %d %d"&a,&b,&c);
+    int a,b,c;
+    scanf("%d %d %d",&a, &b, &c);
     if (a == b && b == c){
-        printf("Equilateral";)
+        printf("Equilateral");
     }
     else if (a == b && b != c){
-        printf("Isosceles";)
+        printf("Isosceles");
     }
     else(a != b && b != c){
-        printf("Scalene";)
+        printf("Scalene");
     }
     return 0;
 }
