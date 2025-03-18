@@ -6,7 +6,7 @@ int main()
 
     // Input cost price and selling price of a product
   
-    scanf("%d %d",&sp, &cp);
+    scanf("%d %d %d",&sp, &cp, &amt);
   
 
     if (sp > cp)
