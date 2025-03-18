@@ -2,7 +2,7 @@
 int main()
 {
     int cp,sp, amt;
-    scanf("%d %d %d",&sp, &cp, &amt) 
+    scanf("%d %d %d",&sp, &cp, &amt);
     if(sp > cp)
     {
         amt = sp - cp;
