@@ -1,14 +1,14 @@
-#include <stdio.h>
+##include <stdio.h>
 
 int main() {
     int a, b, c;
     char op;
+    int valid = 1; // Flag to check if the operation was valid
 
     // Read two integers and an operator
     scanf("%d %d", &a, &b);
-    scanf(" %c", &op); // Note the space before %c to consume any leftover newline character
+    scanf(" %c", &op); 
 
-    // Perform the operation based on the operator
     switch (op) {
         case '+':
             c = a + b;
@@ -23,18 +23,20 @@ int main() {
             if (b != 0) {
                 c = a / b;
             } else {
-                // Set c to a specific value to indicate an error
-                printf("error"); // You can choose any value to indicate an error
+                printf("error\n"); 
+                valid = 0; // Set valid to 0 if division by zero occurs
             }
             break;
         default:
-            printf("error"); // Handle invalid operator case
+            printf("error\n");
+            valid = 0; // Set valid to 0 for invalid operator
             break;
     }
 
-    // Output the result
-    // You can use this line to check the value of c in your testing
-    printf("%d\n", c); // This line can be kept to display the result
+    // Print the result only if the operation was valid
+    if (valid) {
+        printf("%d\n", c);
+    }
 
     return 0;
 }
