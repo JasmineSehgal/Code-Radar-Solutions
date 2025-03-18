@@ -23,15 +23,17 @@ int main() {
             if (b != 0) {
                 c = a / b;
             } else {
-                c = 0; // You can set c to 0 or handle it differently if needed
+                // Set c to a specific value to indicate an error
+                c = -1; // You can choose any value to indicate an error
             }
             break;
         default:
-            c = 0; // Handle invalid operator case
+            c = -1; // Handle invalid operator case
             break;
     }
 
     // Output the result
+    // You can use this line to check the value of c in your testing
     printf("%d\n", c); // This line can be kept to display the result
 
     return 0;
