@@ -24,11 +24,11 @@ int main() {
                 c = a / b;
             } else {
                 // Set c to a specific value to indicate an error
-                printf("error "); // You can choose any value to indicate an error
+                printf("error"); // You can choose any value to indicate an error
             }
             break;
         default:
-            c = -1; // Handle invalid operator case
+            printf("error"); // Handle invalid operator case
             break;
     }
 
