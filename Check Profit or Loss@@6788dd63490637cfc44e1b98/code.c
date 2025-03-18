@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int cp,sp, amt; 
+    int cp,sp, amt;
+    scanf("%d %d %d",&amt, &sp, &cp); 
     if(sp > cp)
     {
         amt = sp - cp;
