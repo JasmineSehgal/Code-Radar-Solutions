@@ -5,15 +5,15 @@ int main()
     scanf("%c", &ch);
     if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
     {
-        printf("'%c' is alphabet.", ch);
+        printf("Consonant");
     }
     else if(ch >= '0' && ch <= '9')
     {
-        printf("'%c' is digit.", ch);
+        printf("Digit");
     }
     else 
     {
-        printf("'%c' is special character.", ch);
+        printf("Special Character");
     }
     return 0;
 }
