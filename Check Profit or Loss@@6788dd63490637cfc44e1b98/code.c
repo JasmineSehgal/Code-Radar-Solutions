@@ -9,7 +9,7 @@ int main() {
         amt = cp - sp; 
         printf("Loss");
     } else {
-        printf("No Profit No Loss.\n");
+        printf("No Profit No Loss\n");
     }
     return 0;
 }
