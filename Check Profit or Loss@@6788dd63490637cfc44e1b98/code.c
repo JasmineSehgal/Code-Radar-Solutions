@@ -1,21 +1,15 @@
 #include <stdio.h>
-
 int main() {
     int cp, sp, amt;
-
-    // Read cost price and selling price
     scanf("%d %d", &cp, &sp);
-
-    // Calculate profit or loss
     if (sp > cp) {
-        amt = sp - cp; // Calculate profit
-        printf("Profit: %d\n", amt);
+        amt = sp - cp;
+        printf("Profit");
     } else if (cp > sp) {
-        amt = cp - sp; // Calculate loss
-        printf("Loss: %d\n", amt);
+        amt = cp - sp; 
+        printf("Loss");
     } else {
         printf("No Profit No Loss.\n");
     }
-
     return 0;
 }
