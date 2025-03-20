@@ -13,7 +13,6 @@ int main() {
         decimalNumber = decimalNumber / 2;
         index++;
     }
-    printf("Binary: ");
     for (int i = index - 1; i >= 0; i--) {
         printf("%d", binary[i]);
     }
