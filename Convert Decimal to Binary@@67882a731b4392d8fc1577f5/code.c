@@ -5,7 +5,7 @@ int main() {
     int index = 0;
     scanf("%d", &decimalNumber);
     if (decimalNumber == 0) {
-        printf("Binary: 0\n");
+        printf("0\n");
         return 0;
     }
     while (decimalNumber > 0) {
