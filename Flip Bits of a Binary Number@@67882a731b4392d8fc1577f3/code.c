@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main() {
-    unsigned int num, mask, result;
-    scanf("%u", &num);
-    result = ~num;
-     printf("%u\n", result);
-    scanf("%u", &mask);
-    result = num ^ mask;
-    printf("%u\n", result);
+    int num;
+    scanf("%d", &num); 
+    int flipped = ~num;
+    printf("%d", num);
+    printf("%d", flipped);
+
     return 0;
 }
