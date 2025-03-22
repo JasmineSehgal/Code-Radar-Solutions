@@ -15,7 +15,7 @@ int main() {
     scanf("%d", &number);
     int trailingZeros = countTrailingZeros(number);
     if (trailingZeros == -1) {
-        printf();
+        printf("%d",trailingZeros);
     } else {
         printf("%d", number);
     }
