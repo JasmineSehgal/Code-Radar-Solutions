@@ -17,8 +17,8 @@ int main() {
     if (trailingZeros == -1) {
         printf("%d",trailingZeros);
     }
-    else {
-        printf("%d", number);
-    }
+    // else {
+    //     printf("%d", number);
+    // }
     return 0;
 }
