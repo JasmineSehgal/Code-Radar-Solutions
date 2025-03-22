@@ -14,10 +14,10 @@ int main() {
     int number;
     scanf("%d", &number);
     int trailingZeros = countTrailingZeros(number);
-    // if (trailingZeros == -1) {
-    //     printf("%d",trailingZeros);
-    // }
-     else {
+    if (trailingZeros == -1) {
+        printf("%d",trailingZeros);
+    }
+    else {
         printf("%d", number);
     }
     return 0;
