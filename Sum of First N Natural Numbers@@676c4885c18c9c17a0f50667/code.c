@@ -14,8 +14,9 @@ int main(){
     int n, sum = 0, lastdigit = 0;
     scanf("%d",&n);
     while(n != 0){
-        lastdigit = n/10;
+        lastdigit = n%10;
         sum = sum + lastdigit;
+        n = n/10;
     }
     printf("%d",sum);
     return 0;
