@@ -14,10 +14,10 @@ int main(){
     int n, sum = 0, lastdigit = 0;
     scanf("%d",&n);
     while(n != 0){
-        lastdigit = n%10;
-        sum = sum + lastdigit;
-        n = n/10;
+        lastdigit = n%10;  // Get last digit
+        sum = sum + lastdigit;  // Add to sum
+        n = n/10;  // Remove last digit
     }
-    printf("%d",sum);
+    printf("%d",sum);  // Prints sum of digits
     return 0;
 }
